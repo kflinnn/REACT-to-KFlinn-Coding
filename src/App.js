@@ -1,5 +1,5 @@
 import './App.css';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/Project';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';

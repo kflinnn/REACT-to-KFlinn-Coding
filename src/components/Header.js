@@ -1,10 +1,9 @@
 import React from 'react';
-import profile from '/images/Profile.png'
 
 function Header () {
     return (
         <header>
-            <img src={profile} alt="Profile Picture"/>
+            <img src="Profile.png" alt="Profile Picture"/>
             <nav>
                 <ul>
                     <li><a href="#portfolio">Portfolio</a></li>
