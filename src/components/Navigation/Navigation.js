@@ -1,9 +1,13 @@
 import React from 'react';
+import "./style.css";
 
 function Navigation () {
     return (
         <nav>
-            {/* navigation content here */}
+            <a href="#about-me">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact-me">Contact</a>
+                <a href="#resume">Resume</a>
         </nav>
     );
 }
