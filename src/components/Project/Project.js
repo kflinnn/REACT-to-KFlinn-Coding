@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Portfolio () {
+function Project () {
     return (
         <section>
             {/* portfolio content here */}
@@ -8,4 +8,4 @@ function Portfolio () {
     );
 }
 
-export default Portfolio;
+export default Project;
