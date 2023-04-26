@@ -1,0 +1,11 @@
+import React from 'react';
+import Kelley from '../../Images/Profile.png';
+
+
+export default function Pic(){
+    return (
+        <div>
+            <Kelley />
+        </div>
+    )
+}

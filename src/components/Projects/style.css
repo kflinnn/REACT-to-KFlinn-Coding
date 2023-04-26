@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #5B2A86;
+    --secondary: #7785AC;
+    --tertiary: #9AC6C5;
+    --dark: #360568;
+    --light: #A5E6BA;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+  
+  .flex-item {
+    border: 5px solid var(--secondary);
+    color: var(--primary);
+    background-color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50%-1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+      }
+
+ 
+   .flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+    background-image: url(../../Images/FoodieCentralatHome.png);
+    background-size: 100%;
+   }   
+
+    .flex-item:hover {
+        background-size: 100% 100%;
+        background-color: none;
+    }
+
+    .work-two {
+        min-height: 100px;
+        flex-basis: 40%;   
+        background-image: url(../../Images/screenshot1.png); 
+    }
+
+    .work-three {
+        min-height: 100px;
+        flex-basis: 40%;
+        background-image: url(../../Images/quiz.png);
+    }
+
+    .work-four {
+        min-height: 100px;
+        flex-basis: 40%;
+        background-image: url(../../Images/schedule.png);  
+    }
+    
+    .work-five {
+        min-height: 100px;
+        flex-basis: 40%;
+        background-image: url(../../Images/password.png);
+    }
