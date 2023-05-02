@@ -38,7 +38,7 @@
    .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
-    background-image: url(../../Images/FoodieCentralatHome.png);
+    background-image: url(../../Images/Food3.png);
     background-size: 100%;
    }   
 
@@ -50,13 +50,13 @@
     .work-two {
         min-height: 100px;
         flex-basis: 40%;   
-        background-image: url(../../Images/screenshot1.png); 
+        background-image: url(../../Images/FoodieCentralatHome.png); 
     }
 
     .work-three {
         min-height: 100px;
         flex-basis: 40%;
-        background-image: url(../../Images/quiz.png);
+        background-image: url(../../Images/screenshot1.png);
     }
 
     .work-four {
