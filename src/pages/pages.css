@@ -1,0 +1,22 @@
+:root {
+    --primary: #5B2A86;
+    --secondary: #7785AC;
+    --tertiary: #9AC6C5;
+    --dark: #360568;
+    --light: #A5E6BA;
+}
+
+body {
+    background-color: var(--tertiary);
+}
+
+h1 {
+    font-size: 45pt;
+    color: var(--primary);
+}
+
+h2 {
+    font-size: 18pt;
+    color: var(--dark);
+}
+

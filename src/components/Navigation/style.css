@@ -1,23 +1,26 @@
-:root {
-    --primary: #5B2A86;
+/* :root {
+   --primary: #5B2A86;
     --secondary: #7785AC;
     --tertiary: #9AC6C5;
     --dark: #360568;
     --light: #A5E6BA;
 }
 
+
 nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: var(--primary);
     }
 
     nav a {
         text-decoration: none;
         padding: 5px 10px;
-        color: var(--secondary);
+        color: var(--light);
         margin-right: 10px;
-        background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+        background-image: linear-gradient(270deg, var(--light) 0%, var(--light) 100%);
         background-repeat: no-repeat;
         background-size: 100% 0.2em;
         background-position: bottom;
@@ -28,4 +31,4 @@ nav {
     nav a:hover {
         background-size: 100% 100%;
         color: var(--primary);
-    }
+    } */

@@ -1,14 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Navigation from '../components/Navigation';
 
 
 export default function Contact() {
     return (
-        <div>
+        <body>
             <Header />
-            <Navigation />
             <section>
             <h2>Contact Me</h2>
                     <div>
@@ -21,6 +19,6 @@ export default function Contact() {
                     </div>
             </section>
             <Footer />
-        </div>
+        </body>
     )
 }
