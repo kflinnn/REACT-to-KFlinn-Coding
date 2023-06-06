@@ -50,6 +50,13 @@ nav {
         color: var(--primary);
     }
 
+    @media screen and (max-width: 768px) {
+      nav a {
+        font-size: 0.8rem;
+        background-size: 100% 0.1em;
+      }
+    }
+
     /* @media screen and (max-width: 768px) {
         nav {
           flex-direction: column;
